@@ -1,14 +1,14 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/public",
   "builds": [
-    { "src": "api/[...all].ts", "use": "@vercel/node" }
+    { "src": "api/[...all].ts", "use": "@vercel/node" },
+    { "src": "dist/public/**", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" },
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/dist/public/index.html" }
   ]
 }
 
