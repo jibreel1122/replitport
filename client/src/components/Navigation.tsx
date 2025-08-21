@@ -90,15 +90,19 @@ export default function Navigation({ onAdminClick }: NavigationProps) {
             >
               {t("nav.language")}
             </button>
-            {isAuthenticated && (
-              <button
-                onClick={onAdminClick}
-                className="p-2 px-4 rounded-lg bg-primary-500 text-white hover:bg-primary-600 transition-colors duration-200"
-                data-testid="admin-toggle"
-              >
-                <Settings className="w-4 h-4" />
-              </button>
-            )}
+            <button
+              onClick={() => {
+                if (isAuthenticated) {
+                  onAdminClick();
+                } else {
+                  window.location.href = "/api/login";
+                }
+              }}
+              className="p-2 px-4 rounded-lg bg-primary-500 text-white hover:bg-primary-600 transition-colors duration-200"
+              data-testid="admin-toggle"
+            >
+              <Settings className="w-4 h-4" />
+            </button>
           </div>
 
           {/* Mobile menu button */}
