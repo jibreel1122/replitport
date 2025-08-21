@@ -1,0 +1,145 @@
+create me a great portfilo that looks like it costs 30 thousand dollar with these specifecations and put my picture , make it toggle between arabic and english , dark and light , create an admin panel to manage my projects (add/delete/edit) , make it freat  : function()
+const
+React
+async
+await
+return
+TypeScript
+Next.js
+Jibreel Bornat
+AboutSkillsProjectsContact
+عربي
+Hello, I'm
+
+Jibreel Bornat
+Computer Engineering Student at Birzeit University
+
+Passionate about creating innovative digital solutions and learning cutting-edge technologies to build exceptional web experiences.
+
+Get In TouchView My Work
+Jibreel Bornat - Professional Photo
+
+About Me
+Passionate about creating digital solutions that make a difference
+
+Computer Engineering Student
+Born and raised in Ramallah - Billin, Palestine, I bring a unique perspective to the world of technology. Currently studying Computer Engineering at Birzeit University, my journey is driven by a passion for innovation and a desire to create meaningful digital experiences.
+
+I specialize in building modern web applications using cutting-edge technologies. I believe in writing clean, maintainable code and creating user interfaces that are both beautiful and functional.
+
+When I'm not coding or studying, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+
+Core Technologies
+JavaScript
+TypeScript
+Python
+Java
+C++
+PHP
+React
+Next.js
+Node.js
+PostgreSQL
+MongoDB
+Git
+Web Development
+Building modern web applications with cutting-edge technologies and best practices
+
+UI/UX Design
+Creating intuitive and beautiful user interfaces with attention to detail and user experience
+
+Problem Solving
+Analytical thinking and creative solutions to complex technical challenges
+
+Global Perspective
+Palestinian student bringing diverse cultural insights to international projects
+
+Programming Languages
+Core technologies I work with
+
+JavaScript
+JavaScript
+Proficiency95%
+Python
+Python
+Proficiency88%
+Java
+Java
+Proficiency85%
+C
+C
+Proficiency80%
+Flutter
+Flutter
+Proficiency78%
+React
+React
+Proficiency93%
+Node.js
+Node.js
+Proficiency87%
+Next.js
+Next.js
+Proficiency91%
+Featured Projects
+A showcase of my latest work and technical achievements
+
+All Projects (3)Featured (2)
+Clinic Care
+Clinic Care
+Suitable website for clinics and healthcare facilities
+
+ReactJavaSrciptNextHTML
+Live Demo
+Jibreel IPTV
+Featured
+Jibreel IPTV
+Enjoy watching your favourite content in 4K
+
+ReactJavaScriptNextHTML
+Live Demo
+E-commerce Website
+Featured
+E-commerce Website
+A website for any e-commerce business
+
+ReactJavaSrciptNextHTML
+Live Demo
+Get In Touch
+Ready to bring your ideas to life? Let's discuss your next project
+
+Let's Connect
+Email
+
+jibreelebornat@gmail.com
+
+Phone
+
++972 59 976 5211
+
+Location
+
+Ramallah - Billin, Palestine
+
+Follow Me
+
+Send a Message
+Name *
+Your full name
+Email *
+your@email.com
+Subject *
+Project discussion, collaboration, etc.
+Message *
+Tell me about your project, timeline, and requirements...
+Send Message
+Jibreel Bornat
+Palestinian Computer Engineer crafting exceptional digital experiences
+
+Quick Links
+AboutSkillsProjectsContact
+Back to Top
+Made withandin Palestine
+© 2025 Jibreel Bornat. All rights reserved.
+
+ 
