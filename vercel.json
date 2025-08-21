@@ -2,11 +2,11 @@
   "version": 2,
   "buildCommand": "npm run build",
   "builds": [
-    { "src": "api/[...all].ts", "use": "@vercel/node" },
+    { "src": "api/server.ts", "use": "@vercel/node" },
     { "src": "dist/public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/api/(.*)", "dest": "/api/server.ts" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/dist/public/index.html" }
   ]
