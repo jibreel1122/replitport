@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { useAuth } from "@/hooks/useAuth";
 import Portfolio from "@/pages/Portfolio";
+import Admin from "@/pages/Admin";
 import Landing from "@/pages/Landing";
 import NotFound from "@/pages/not-found";
 import FloatingCodeWords from "@/components/FloatingCodeWords";
@@ -28,6 +29,7 @@ function Router() {
       <div className="relative z-10">
         <Switch>
           <Route path="/" component={Portfolio} />
+          <Route path="/admin" component={Admin} />
           <Route component={NotFound} />
         </Switch>
       </div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -9,8 +9,18 @@ import Footer from "@/components/Footer";
 import AdminPanel from "@/components/AdminPanel";
 import BackToTop from "@/components/BackToTop";
 
-export default function Portfolio() {
+interface PortfolioProps {
+  openAdminOnMount?: boolean;
+}
+
+export default function Portfolio({ openAdminOnMount = false }: PortfolioProps) {
   const [isAdminPanelOpen, setIsAdminPanelOpen] = useState(false);
+
+  useEffect(() => {
+    if (openAdminOnMount) {
+      setIsAdminPanelOpen(true);
+    }
+  }, [openAdminOnMount]);
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
