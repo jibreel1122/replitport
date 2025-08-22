@@ -38,7 +38,7 @@ function Router() {
       <FloatingCodeWords />
       <div className="relative z-10">
         <Switch>
-          <Route path="/" component={Portfolio} />
+          <Route path="/" component={Home} />
           <Route path="/home" component={Home} />
           <Route path="/about" component={AboutPage} />
           <Route path="/programs" component={ProgramsPage} />
